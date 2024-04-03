@@ -15,7 +15,6 @@ function createData(name: string, count: number) {
 
 const TagTable = () => {
   const { tags, rowsPerPage, isLoading } = useTagsContext();
-  console.log(tags);
 
   const rows = tags?.map((tag: TagItem) => createData(tag.name, tag.count));
 

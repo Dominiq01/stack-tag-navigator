@@ -43,8 +43,45 @@ export const Default = {
         name: "tag3",
         count: 30,
       },
+      {
+        id: 4,
+        name: "tag4",
+        count: 40,
+      },
+      {
+        id: 5,
+        name: "tag5",
+        count: 50,
+      },
+      {
+        id: 6,
+        name: "tag6",
+        count: 60,
+      },
+      {
+        id: 7,
+        name: "tag7",
+        count: 70,
+      },
+      {
+        id: 8,
+        name: "tag8",
+        count: 80,
+      },
+      {
+        id: 9,
+        name: "tag9",
+        count: 90,
+      },
+      {
+        id: 10,
+        name: "tag10",
+        count: 100,
+      },
     ],
     order: "desc",
+    page: 1,
+    totalPages: 1,
   },
 };
 

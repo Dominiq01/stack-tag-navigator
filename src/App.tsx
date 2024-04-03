@@ -12,12 +12,6 @@ const queryClient = new QueryClient({
   },
 });
 
-/*
-- rozwiązanie opublikować w repozytorium GitHub
-- całość powinna się uruchamiać wyłącznie po wykonaniu komend "npm ci", "npm start", "npm run storybook"
-*/
-
-
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
