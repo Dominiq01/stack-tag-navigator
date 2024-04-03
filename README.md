@@ -1,10 +1,10 @@
-# StackOverflow Tags Browser
+# Stack Tag Navigator
 
 This project is a React-based user interface that displays StackOverflow tags retrieved from the StackOverflow API. It features a paginated table of tags alongside the number of related posts for each tag. The interface allows users to configure the number of items per page, choose the sorting field and direction, and handle loading states and errors. The project utilizes Material-UI for UI components, employs state management by React Query, and includes a Storybook for showcasing the components.
 
 ## Features
 
-- **Paginated Table/List**: Displays StackOverflow tags with the count of related posts.
+- **Paginated Table**: Displays StackOverflow tags with the count of related posts.
 - **Configurable Items Per Page**: Users can set the number of tags displayed per page.
 - **Sorting**: UI elements allow for sorting by field and direction.
 - **Loading and Error States**: Proper handling and feedback for data fetching states.
